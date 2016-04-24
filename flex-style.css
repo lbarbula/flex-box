@@ -1,0 +1,91 @@
+/*****************
+Universal Properties
+******************/
+
+body {
+  height:100vh;
+  width:200vh;
+  border: 1px solid red;
+  margin:0;
+  display:flex;
+  flex-direction:column;
+}
+
+/******************
+left flex-containers
+*******************/
+.header {
+  height:10%;
+  width:100%;
+  background-color: red;
+  align-self: flex-start;
+  position:relative;
+}
+.column {
+  display:flex;
+  flex-direction: column;
+  position:relative;
+  top:;
+  width:33.3333333%;
+  height:100%;
+}
+.left {
+  background-color: blue;
+  align-self: flex-start;
+
+}
+.flex {
+  height:20%;
+  width:100%;
+}
+.first {
+  position:relative;
+  top:30%;
+  background-color: green;
+}
+/***********************
+content
+***********************/
+.content {
+  display:flex;
+  flex-direction: row;
+  align-self:center;
+  position: relative;
+  height:80%;
+  width:100%;
+}
+/***********************
+middle flex-containers
+************************/
+.middle {
+  background-color: yellow;
+  align-self: center;
+}
+.second {
+  position:relative;
+  background-color: orange;
+  top:30%;
+  text-align: center;
+}
+/**********************
+right containers
+**********************/
+.right {
+  background-color: green;
+  align-self: flex-end;
+}
+.third {
+  position:relative;
+  background-color: blue;
+  top:30%;
+  text-align: left;
+}
+/************************
+footer
+************************/
+.footer {
+  background-color: orange;
+  align-self: flex-end;
+  height:10%;
+  width:100%;
+}
